@@ -52,4 +52,8 @@
         <filter-name>MonFiltre</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    
+    <listener>
+        <listener-class>biz.ei6.MonListener</listener-class>
+    </listener>
 </web-app>
